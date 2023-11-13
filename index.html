@@ -5,9 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ProA 5TO Lucila </title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
 </head>
-<body> 
+</head>
+<body  class="container text-center"> 
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Más Información</a>
+    <a href="#">Contacto</a>
+  </nav>
     <div class="texto-centrado"> 
     <h1>Danza Contemporanea</h1>
     <h2>Historia de la danza contemporanea</h2>
@@ -22,16 +30,94 @@
     <h4>Click aqui para un video</h4>
     <a id="imagen-boton"a href="https://www.youtube.com/watch?v=qqGlxdv60ks"><img src="danzacontemporanea2.jpg"></a></button>
     <div>
+      
         <h3>¿Quien creo la danza contemporanea</h3>
         <p>Su libertad a la hora de bailar rompiendo todas las normas del ballet hacen que se considere a Isadora Duncan, la creadora de la danza moderna. Isadora nació el 27 de Mayo de 1877 en San Francisco.</p>
         <h2>tecnicas de la danza contemporanea</h2>
         <p>Vamos a hablar de 4 tecnicas de la danza contemporanea,La tecnica Duncan, La tecnica Graham, La tecnica Hawkins y La tecnica Limon.</p>
-        <div class="isadoraduncan">
-        <h3>Tecnica Duncan</h3>
+       
         </div>
-        <p>Isadora Duncan fue una bailarina y coreografa estadounidense. Duncan apoyo los movimientos libres y naturales, se inspiro en las danzas folcloricas,las danzas naturales,la naturaleza,las danzas sociales, las artes griegas, entre otras. Isadora estaba convencida de que no era su cuerpo el que bailaba,sino su esencia,su alma, su interior.</p>
-        <img src="Isadora_Duncan.jpg" 
-    </div>
+        <div class="container text-center">
+            <div class="row align-items-center">
+              <div class="col-3 bg-warning-subtle rounded m-2"">
+                <div class="isadoraduncan">
+                    <h3>Tecnica Duncan</h3>
+                    
+                    <p>Isadora Duncan fue una bailarina y coreografa estadounidense. Duncan apoyo los movimientos libres y naturales, se inspiro en las danzas folcloricas,las danzas naturales,la naturaleza,las danzas sociales, las artes griegas, entre otras. Isadora estaba convencida de que no era su cuerpo el que bailaba,sino su esencia,su alma, su interior.</p>
+                    <img src="Isadora_Duncan.jpg">
+                    </div>
+              </div>
+              <div class="col-2 bg-warning-subtle rounded m-2">
+                <div class="Graham">
+                    <h3>Tecnica Graham</h3>
+                    <p>
+                        Martha Graham fue una bailarina y coreógrafa estadounidense de danza moderna. La tecnica Graham  Está basada en los principios de la contracción y la relajación. Graham se enfoca en liberar las emociones mediante las contracciones pélvicas y abdominales, la relajación al inspirar, los espasmos de los músculos, los estiramientos y tirones.
+                    </p>
+                    <img src="bailarines/martagraham.jpg">
+        
+                </div>
+              </div>
+              <div class="col-3 bg-warning-subtle rounded m-2">
+                <div class="Hawkins">
+                    <h3>Tecnica Hawkins</h3>
+                    <p>Erick Hawkins fue un bailarín y coreógrafo estadounidense. Bailarín y coreógrafo americano que estudió en Harvard. El principio central de la Técnica Hawkins es el uso de movimientos fluidos y libres que se inician desde el centro de gravedad del cuerpo. La técnica se enfoca en generar movimientos que sigan los principios anatómicos de la postura y la alineación corporal. </p>
+                    <img src="bailarines/hawkins.jpg">
+        
+                </div>
+              </div>
+              <div class="col-3 bg-warning-subtle rounded m-2">
+                <div class="limon">
+                  <h3>Tecnica Limon</h3>
+                  <p>José Arcadio Limón, fue un bailarín, maestro de danza y coreógrafo mexicano-estadounidense. Es considerado el precursor de la danza moderna. Se caracteriza por la concordancia entre bailarín y música y su expresión dramática. Esta escuela de baile contemporáneo se caracteriza por jugar más con la gravedad. La caída y la recuperación son la base de la técnica Limón.</p>
+                  <img src="bailarines/limon.jpg">
+                
+              </div>
+            </div>
+          </div>
+          <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col-2">
+              </div>
+              <div class="col-8">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="fotos carru/foto 1 sisi.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fotos carru/foto 2 si.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fotos carru/foto 3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fotos carru/foto 4 linda sisi.webp" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fotos carru/foto 5 linda si.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+              </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+
+    </script> 
 
 </body>
     

@@ -37,12 +37,24 @@ img{
 }
 body{
     background-color:bisque;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:sans-serif;
 }
-.isadoraduncan {
-    background-color: lightsalmon;
-    border-radius: 15px;
-    width: 10%;
-    margin: 5% 5% 2% 2%;
 
-}
+
+  
+  nav {
+    background-color: lightcoral; /* Color de la barra de navegación */
+    padding: 15px 20px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #ffffff; /* Color del texto en la barra de navegación */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    border-bottom: 2px solid #ffffff; /* Línea inferior al pasar el mouse */
+  }
