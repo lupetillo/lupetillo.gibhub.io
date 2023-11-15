@@ -1,32 +1,56 @@
 <head>
+  <!DOCTYPE html>
+  <html lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    
 </head>
 <body>
-    <div class="container text-center">
-        <div class="row align-items-start">
-          <div class="col">
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="masinfo.html">Más Información</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Para más información, contáctanos:</p>
+    <p>Email: <a href="danza@gmail.com">danza@gmail.com</a></p>
+    <a href="https://www.youtube.com/watch?v=qqGlxdv60ks" class="button">Más Información</a>
+  </section>
+
+  <script>
+    function mostrarMasInfo() {
+      alert("https://www.youtube.com/watch?v=qqGlxdv60ks");
+      // Puedes agregar aquí el código para mostrar más información según tus necesidades.
+    }
+  </script>
+   <div class="container">
+    <!-- Contenido de la página -->
+
+    <!-- Footer -->
+    <footer class="mt-5 p-3 bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Contacto</h5>
+            <p>Tel: 3546 635271</p>
           </div>
-          <div class="col">
-            <form class="bg-warning-subtle">
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+          <div class="col-md-4">
+            <h5>Instagram</h5>
+            <p>danza.bailar</p>
           </div>
-          <div class="col">
+          <div class="col-md-4">
+            <h5>Creador</h5>
+            <p>lucila petillo</p>
           </div>
         </div>
       </div>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </footer>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>

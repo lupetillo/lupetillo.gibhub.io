@@ -58,3 +58,41 @@ body{
   nav a:hover {
     border-bottom: 2px solid #ffffff; /* Línea inferior al pasar el mouse */
   }
+
+  #contacto {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:  lightcoral;;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  a.button {
+    display: inline-block;
+    background-color: #ffbb00;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  a.button:hover {
+    background-color: #0056b3;
+  }
